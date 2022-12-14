@@ -1,0 +1,49 @@
+.todo {
+    &-header {
+        background-color: #89cdf5;
+        padding: 16px;
+        color: #fff;
+    }
+
+    &-body {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    &-form {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-input {
+        width: 80%;
+        height: 36px;
+        border-radius: 0;
+        border: 1px solid #C9C8C8;
+        padding: 0 10px;
+    }
+
+    &-btn {
+        border-radius: 0;
+        width: 18%;
+        height: 36px;
+    }
+
+    &-content {
+        margin-top: 30px;
+
+        &-item {
+            display: flex;
+
+            &-btn {
+                border-radius: 0;
+                height: 36px;
+            }
+
+            .todo-item {
+
+            }
+        }
+    }
+}
